@@ -10,3 +10,7 @@ composer install
 ```
 
 -   na raiz do projeto e caso esteja usando Linux ou WSL use o usuário padrão do sistema e não o root
+
+*   também foi anexado ao projeto o arquivo de Insomnia para debugar as rotas e caso necessário o .sql para gerar o banco de dados, porém caso queira após criar o banco a tabela pode ser criada com migration através do comando na raiz do projeto:
+
+`php artisan migrate`
